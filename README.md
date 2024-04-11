@@ -11,6 +11,8 @@
 
 ## Starting in Development
 
+Before starting, make sure you have the corresponding Segment Write Key registered into your `.env` file. You can find the Segment Write Key in your Segment source's settings.
+
 Open two terminal windows and navigate to the project directory. In the first terminal window, run the following command to start the Laravel server:
 
 ```bash
