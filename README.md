@@ -17,6 +17,8 @@ Make sure you have the following installed on your local machine:
 
 - [PHP](https://www.php.net/downloads) (I recommend at least PHP 7.4)
 - [Composer](https://getcomposer.org/download/)
+- [Node.js](https://nodejs.org/en/download/) (I recommend at least Node.js 20)
+- [Yarn](https://yarnpkg.com/getting-started/install)
 
 Clone the repository:
 
@@ -34,9 +36,10 @@ Install the project dependencies:
 
 ```bash
 composer install
+yarn
 ```
 
-Before starting, make sure you have the corresponding Segment Source Write Key registered into your `.env` file. You can find the Segment Source Write Key in your Segment source's settings. If you don't have a `.env` file, you can create one by copying the `.env.example` file.
+Before starting the project, make sure you have the corresponding Segment Source Write Key registered into your `.env` file. You can find the Segment Source Write Key in your Segment source's settings. If you don't have a `.env` file, you can create one by copying the `.env.example` file.
 
 The line with will have the Segment Source Write Key should look like this:
 
