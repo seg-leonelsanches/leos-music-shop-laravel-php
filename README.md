@@ -1,5 +1,7 @@
 # Leo's Music Store in Laravel (PHP)
 
+An implementation of Leo's Music Store in Laravel (PHP) for the purpose of teaching Segment customer how to integrate their PHP applications with Segment.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -9,9 +11,42 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Starting in Development
+## Getting Started
 
-Before starting, make sure you have the corresponding Segment Write Key registered into your `.env` file. You can find the Segment Write Key in your Segment source's settings.
+Make sure you have the following installed on your local machine:
+
+- [PHP](https://www.php.net/downloads) (I recommend at least PHP 7.4)
+- [Composer](https://getcomposer.org/download/)
+
+Clone the repository:
+
+```bash
+git clone https://github.com/seg-leonelsanches/leos-music-shop-laravel-php.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd leos-music-shop-laravel-php
+```
+
+Install the project dependencies:
+
+```bash
+composer install
+```
+
+Before starting, make sure you have the corresponding Segment Write Key registered into your `.env` file. You can find the Segment Write Key in your Segment source's settings. If you don't have a `.env` file, you can create one by copying the `.env.example` file.
+
+The line with the Segment Write Key should look like this:
+
+```env
+SEGMENT_WRITE_KEY=your-write-key-here
+```
+
+Just replace `your-write-key-here` with your actual Segment Write Key.
+
+## Starting in Development Mode
 
 Open two terminal windows and navigate to the project directory. In the first terminal window, run the following command to start the Laravel server:
 
