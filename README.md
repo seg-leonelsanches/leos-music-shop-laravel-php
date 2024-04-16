@@ -1,6 +1,6 @@
 # Leo's Music Store in Laravel (PHP)
 
-An implementation of Leo's Music Store in Laravel (PHP) for the purpose of teaching Segment customer how to integrate their PHP applications with Segment.
+An implementation of Leo's Music Store in Laravel (PHP) for the purpose of teaching Segment customers how to integrate their PHP applications with Segment.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
@@ -36,9 +36,9 @@ Install the project dependencies:
 composer install
 ```
 
-Before starting, make sure you have the corresponding Segment Write Key registered into your `.env` file. You can find the Segment Write Key in your Segment source's settings. If you don't have a `.env` file, you can create one by copying the `.env.example` file.
+Before starting, make sure you have the corresponding Segment Source Write Key registered into your `.env` file. You can find the Segment Source Write Key in your Segment source's settings. If you don't have a `.env` file, you can create one by copying the `.env.example` file.
 
-The line with the Segment Write Key should look like this:
+The line with will have the Segment Source Write Key should look like this:
 
 ```env
 SEGMENT_WRITE_KEY=your-write-key-here
